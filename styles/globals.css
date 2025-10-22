@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Martian font placeholder:
+   Place Martian font files in public/fonts and uncomment the @font-face block.
+*/
+/*
+@font-face {
+  font-family: "Martian";
+  src: url("/fonts/Martian-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-sans: "Martian", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto;
+}
+*/
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto;
+}
+
+html,body {
+  font-family: var(--font-sans);
+  background-color: #f3f4f6;
+}
